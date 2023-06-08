@@ -163,6 +163,16 @@ code {
   text-decoration: none !important;
 }
 
+
+.links-page {
+  color: #888888 !important;
+  display: flex;
+}
+
+.links-page > * {
+  margin-right: 5px;
+}
+
 /****/
 
 .aticle-title > h3 {
