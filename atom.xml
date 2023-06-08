@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Carlos Nascimento]]></title>
+    <link href="https://carloscdf.github.io/carlos//atom.xml" rel="self"/>
+    <link href="https://carloscdf.github.io/carlos//"/>
+    <updated>2023-06-08T02:05:18+00:00</updated>
+    <id>https://carloscdf.github.io/carlos//</id>
+            <author>
+            <name><![CDATA[Carlos Nascimento]]></name>            <email><![CDATA[henrique.duplex@hotmail.com]]></email>        </author>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Números e outras propriedades em Python para você aprender em casa.]]></title>
+            <link href="https://carloscdf.github.io/carlos//article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/"/>
+            <updated>2023-06-08T02:05:18+00:00</updated>
+            <id>https://carloscdf.github.io/carlos//article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/</id>
+            <content type="html"><![CDATA[<h2 id="tipos">Tipos</h2>
+
+<p>No <b>python</b>, existem três tipos de números:</p>
+
+<ul>
+    <li>int</li>
+    <li>float</li>
+    <li>complex</li>
+</ul>
+
+<h3 id="int">Int</h3>
+
+<p>Os números do tipo <b>int</b>, são os números inteiros, ou seja, são números positivos e negativos que não possuem casa decimal.</p>
+
+<p>Exemplos:</p>
+
+<p><code></p>
+
+<p>$ git commit -m "This is the title" -m "This is the second paragraph"</p>
+
+<p></code></p>
+
+<p>Façamos como no arquivo anterior e perguntemos ao <b>python</b> como ele define estas variáveis.</p>
+
+<p><code></p>
+
+<pre><code>print(type(num1))
+print(type(num2))
+</code></pre>
+
+<p></code></p>
+
+<p>Saída
+<code></p>
+
+<pre><code>&lt;class 'int'&gt;
+&lt;class 'int'&gt;
+</code></pre>
+
+<p></code>
+Como já era esperado, o interpretador <b>python</b> definiu estas variáveis como números inteiros.</p>
+
+<h3 id="float">Float</h3>
+
+<p>Os números do tipo <b>float</b>, são os números racionais e irracionais, ou seja, são números positivos e negativos que  possuem casa decimal.</p>
+
+<p>Exemplos:
+<code></p>
+
+<pre><code>#Exemplos de números do tipo float
+num3 = 300.5 #número positivo com uma casa decimal
+num4 = -433.6776 #número negativo com quatro casas decimais
+</code></pre>
+
+<p></code>
+Consultemos, agora ao interpretador <b>python</b>.</p>
+
+<p><code></p>
+
+<pre><code>print(type(num3))
+print(type(num4))
+</code></pre>
+
+<p></code>
+Saída
+<code></p>
+
+<pre><code>&lt;class 'float'&gt;
+&lt;class 'float'&gt;
+</code></pre>
+
+<p></code></p>
+
+<h3 id="complex">Complex</h3>
+
+<p>Os números do tipo <b>complex</b>, são compostos por uma parte real e outra imaginária.</p>
+
+<p>Exemplos:</p>
+
+<p><code></p>
+
+<pre><code>num5 = 2 + 4j
+num6 = 4j
+num7 = -10j
+</code></pre>
+
+<p></code>
+Consultemos, agora ao interpretador <b>python</b>.
+<code></p>
+
+<pre><code>print(type(num5))
+print(type(num6))
+print(type(num7))
+</code></pre>
+
+<p></code>
+Saída
+<code></p>
+
+<pre><code>&lt;class 'complex'&gt;
+&lt;class 'complex'&gt;
+&lt;class 'complex'&gt;
+</code></pre>
+
+<p></code></p>
+
+<h3 id="n%C3%BAmero-aleat%C3%B3rio">Número aleatório</h3>
+
+<p>O <b>python</b>, possui um módulo que gera um número aleatório.</p>
+
+<p><code></p>
+
+<pre><code>import random
+#Gera um número inteiro aleatório entre 0 e 10
+print(random.randint(0,10))    
+</code></pre>
+
+<p></code></p>
+
+<h2 id="convers%C3%B5es">Conversões</h2>
+
+<p>Como vimos no arquivo anterior podiamos transformar variáveis de um tipo inicial para um novo tipo.</p>
+
+<p>Vejamos agora conversões com números.
+<code></p>
+
+<pre><code>num8 = 80 #Número do tipo int
+num9 = -9.6 #Número do tipo float
+</code></pre>
+
+<p></code></p>
+
+<p><code></p>
+
+<pre><code>print(type(float(num8))) #Convertendo de int para float
+
+print(type(int(num9))) #Convertendo de float para int 
+
+print(type(complex(num8)) #Convertendo de int para complex
+
+print(float(num8))
+print(int(num9))
+print(complex(num8)) 
+</code></pre>
+
+<p></code>
+Saída
+<code></p>
+
+<pre><code>&lt;class 'float'&gt;
+&lt;class 'int'&gt;
+&lt;class 'complex'&gt;
+80.0
+-9
+(80+0j)
+</code></pre>
+
+<p></code></p>
+
+<h2 id="opera%C3%A7%C3%B5es-aritm%C3%A9ticas">Operações aritméticas</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Operação</th>
+  <th>Operador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Adição</td>
+  <td>+</td>
+</tr>
+<tr>
+  <td>Subtração</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>Multiplicação</td>
+  <td>*</td>
+</tr>
+<tr>
+  <td>Divisão</td>
+  <td>/</td>
+</tr>
+<tr>
+  <td>Divisão inteira</td>
+  <td>//</td>
+</tr>
+<tr>
+  <td>Exponenciação</td>
+  <td>**</td>
+</tr>
+<tr>
+  <td>Resto da divisão</td>
+  <td>%</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="opera%C3%A7%C3%B5es-com-int.">Operações com int.</h3>
+
+<p><code></p>
+
+<pre><code>print(10 + 9) #Soma de inteiros
+print(9 - 8) #Subtração de inteiros
+print(-9 * -9) # Multiplicação de inteiros
+print(10 / 3) # Divisão de inteiros
+print(10 // 3) # Parte inteira da divisão entre inteiros
+print(10**2)  #Exponenciação entre inteiros
+print(10 % 2) #Resto da divisão entre inteiros
+</code></pre>
+
+<p></code>
+Saída
+<code></p>
+
+<pre><code>19
+1
+81
+3.3333333333333335
+3
+100
+0
+</code></pre>
+
+<p></code></p>
+
+<h3 id="opera%C3%A7%C3%B5es-com-float.">Operações com float.</h3>
+
+<p><code></p>
+
+<pre><code>print(10.5 + 8.2) #Soma com floats
+print(-98.66 - 8.99) #Subtração com floats
+print(27.5 * 3.7) # Multiplicação com floats
+print(99.2 / 3.2) # Divisão com floats
+print(99.2 // 3.2) # Parte inteira da divisão com floats
+print(0.25**2)  #Exponenciação com floats
+print(5.0 % 2.5) #Resto da divisão com floats
+</code></pre>
+
+<p></code>
+Saída
+<code></p>
+
+<pre><code>18.7
+-107.64999999999999
+101.75
+31.0
+30.0
+0.0625
+0.0    
+</code></pre>
+
+<p></code></p>
+
+<h3 id="opera%C3%A7%C3%B5es-com-complex.">Operações com complex.</h3>
+
+<p><code></p>
+
+<pre><code>print(3 + 4j + 3 + 4j) #Soma com complex
+print(2 + 4j - 2 + 8j) #Subtração com complex
+print(-2 + 9j * 16 + 90j) # Multiplicação com complex
+print(2 + 10j/ 2j) # Divisão com complex
+print(25 + 2j ** 3 + 2j)  #Exponenciação com complex
+</code></pre>
+
+<p></code>
+<b>OBS1:</b> j equivale a -1 <br>
+<b>OBS2:</b> Divisão inteira e resto não funcionam em números complexos.</p>
+
+<p>Saída
+<code></p>
+
+<pre><code>(6+8j)
+12j
+(-2+234j)
+(7+0j)
+(25-6j)
+</code></pre>
+
+<p></code></p>
+
+<h2 id="finalizando">Finalizando</h2>
+
+<p>Você agora possui conhecimento sobre como funcionam os números, em<b> python</b> e como fazer operações e conversões aos mesmos. Prossiga nos seus estudos e pule para o próximo <b>readme.</b>
+<br>
+<br>
+<b>OBS:</b> Qualquer dúvida relacionada ao contéudo apresentado neste repositório.<br>
+Acesse o discord da heart developers, que a comunidade irá fornecer o suporte necessário, para você.<br>
+Discord: <a href="https://discord.com/invite/7UJDgBG">discord</a></p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[The Carlito&#039;s way to make Design - He Loves Lana Del Rey.]]></title>
+            <link href="https://carloscdf.github.io/carlos//article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/"/>
+            <updated>2023-06-08T02:05:18+00:00</updated>
+            <id>https://carloscdf.github.io/carlos//article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/</id>
+            <content type="html"><![CDATA[<p><img src="https://s2-g1.glbimg.com/UdqT1l-8oWH5EDTN7Pfcic_eEjc=/0x0:4000x2667/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/x/B/RJBj1yQ3AqPgugrNBlyA/lana-del-rey-ariel-martini-mita.jpg" alt="Lana Del Rey" />
+<small>Lana Del Rey em um show em São Paulo</small></p>
+
+<h2 id="maneiras-com-que-eu-fa%C3%A7o-meus-designs">Maneiras com que eu faço meus designs</h2>
+
+<p>não é novidade pra ninguém que eu gosto bastante de design gráfico It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+]]></content>
+        </entry>
+    </feed>
