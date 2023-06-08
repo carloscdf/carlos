@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Carlos Nascimento]]></title>
-    <link href="https://carloscdf.github.io/carlos//atom.xml" rel="self"/>
-    <link href="https://carloscdf.github.io/carlos//"/>
-    <updated>2023-06-08T03:44:42+00:00</updated>
-    <id>https://carloscdf.github.io/carlos//</id>
+    <link href="https://carloscdf.github.io/carlos/atom.xml" rel="self"/>
+    <link href="https://carloscdf.github.io/carlos/"/>
+    <updated>2023-06-08T03:58:00+00:00</updated>
+    <id>https://carloscdf.github.io/carlos/</id>
             <author>
             <name><![CDATA[Carlos Nascimento]]></name>            <email><![CDATA[henrique.duplex@hotmail.com]]></email>        </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Números e outras propriedades em Python para você aprender em casa.]]></title>
-            <link href="https://carloscdf.github.io/carlos//article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/"/>
-            <updated>2023-06-08T03:44:42+00:00</updated>
-            <id>https://carloscdf.github.io/carlos//article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/</id>
+            <link href="https://carloscdf.github.io/carlos/article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/"/>
+            <updated>2023-06-08T03:58:00+00:00</updated>
+            <id>https://carloscdf.github.io/carlos/article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/</id>
             <content type="html"><![CDATA[<h2 id="tipos">Tipos</h2>
 
 <p>No <b>python</b>, existem três tipos de números:</p>
@@ -308,9 +308,9 @@ Discord: <a href="https://discord.com/invite/7UJDgBG">discord</a></p>
         </entry>
             <entry>
             <title type="html"><![CDATA[The Carlito&#039;s way to make Design - He Loves Lana Del Rey.]]></title>
-            <link href="https://carloscdf.github.io/carlos//article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/"/>
-            <updated>2023-06-08T03:44:42+00:00</updated>
-            <id>https://carloscdf.github.io/carlos//article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/</id>
+            <link href="https://carloscdf.github.io/carlos/article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/"/>
+            <updated>2023-06-08T03:58:00+00:00</updated>
+            <id>https://carloscdf.github.io/carlos/article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/</id>
             <content type="html"><![CDATA[<p><img src="https://s2-g1.glbimg.com/UdqT1l-8oWH5EDTN7Pfcic_eEjc=/0x0:4000x2667/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/x/B/RJBj1yQ3AqPgugrNBlyA/lana-del-rey-ariel-martini-mita.jpg" alt="Lana Del Rey" />
 <small>Lana Del Rey em um show em São Paulo</small></p>
 
