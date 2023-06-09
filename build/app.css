@@ -234,7 +234,7 @@ code > * {
   display: flex;
 }
 
-.links-page > * {
+.links-page > a:nth-child(1), a:nth-child(2)  {
   margin-right: 10px;
 }
 
