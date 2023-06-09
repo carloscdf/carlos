@@ -2,19 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://carloscdf.github.io/carlos</loc>
-    <lastmod>2023-06-08</lastmod>
+    <lastmod>2023-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://carloscdf.github.io/carlos/article/numeros-e-outras-propriedades-em-python-para-voce-aprender-em-casa/</loc>
-    <lastmod>2023-06-08T03:58:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-    <url>
-    <loc>https://carloscdf.github.io/carlos/article/the-carlitos-way-to-make-design-he-loves-lana-del-rey/</loc>
-    <lastmod>2023-06-08T03:58:00+00:00</lastmod>
+    <loc>https://carloscdf.github.io/carlos/article/a-journey-into-the-tech-world-my-introduction-passion-for-web-development-and-about-this-blog/</loc>
+    <lastmod>2023-06-09T00:00:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
