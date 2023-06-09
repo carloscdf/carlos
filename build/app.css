@@ -14,6 +14,10 @@
 }
 
 
+body {
+  background-color: #010409ff !important;
+}
+
 /**TITLES, LINKS & PHARAGRAFS**/
 
 .icon-main {
@@ -36,17 +40,21 @@
   text-transform: uppercase !important; 
 }
 
+.icon-main > h5 {
+  color: #7d8590ff !important;
+}
+
 .link-main {
   display: flex;
   flex-direction: column;
   text-decoration: none !important;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(202, 202, 202);
+  border-bottom: 1px solid #2d3138ff;
 
 }
 
 .text-main {
-  color: #686868 !important;
+  color: #f3f3f3 !important;
   font-family: var(--lato);
   font-weight: 600 !important;
   font-size: 18px;
@@ -67,12 +75,13 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 0.9 !important;
   margin-top: 30px !important;
   margin-bottom: 30px !important;
-  color: rgb(14, 14, 14) !important;
+  color: rgb(243, 243, 243) !important;
 }
 
 p, span, a {
   font-family: var(--lato);
   font-size: 18px !important;
+  color: rgb(243, 243, 243) !important;
 }
 
 
@@ -82,7 +91,7 @@ a {
 }
 
 hr {
-  border-top: 1px solid rgb(202, 202, 202) !important;
+  border-top: 1px solid #2d3138ff !important;
 }
 
 
@@ -151,7 +160,7 @@ code > * {
 }
 
 .page-title > .header-infos > h4 {
-  color: #686868 !important;
+  color: #7d8590ff !important;
   margin-top: 0px !important;
   margin-bottom: 5px !important;
 }
@@ -192,23 +201,23 @@ code > * {
 }
 
 .languages:nth-child(1) {
-  background-color: #e961223d;
-  color: #DD4B24;
+  background-color: #eeb89f;
+  color: #DD4B24 !important;
 }
 
 .languages:nth-child(2) {
-  background-color: #2e67ec49;
-  color: #2D52E1;
+  background-color: #97b1ee;
+  color: #2D52E1 !important;
 }
 
 .languages:nth-child(3) {
-  background-color: #efc0244b;
-  color: #E4A125;
+  background-color: #fceebd;
+  color: #E4A125 !important;
 }
 
 .languages:nth-child(4) {
-  background-color: #8694c181;
-  color: #1D202E;
+  background-color: #c0ccf3;
+  color: #1D202E !important;
 }
 
 .profile-icon {
@@ -222,13 +231,17 @@ code > * {
 
 
 .links-page {
-  color: #888888 !important;
   display: flex;
 }
 
 .links-page > * {
-  margin-right: 5px;
+  margin-right: 10px;
 }
+
+.links-page > a > svg {
+  fill: #806effff!important;
+}
+
 
 .post-title {
   margin: 0px !important;
@@ -244,7 +257,7 @@ code > * {
 
 
 .aticle-title {
-  border-bottom: 2px solid black !important;
+  border-bottom: 2px solid rgb(243, 243, 243) !important;
   margin-bottom: 20px;
   width: fit-content;
 }
@@ -258,21 +271,18 @@ code > * {
 
 .post-data > * {
   margin-right: 5px;
+  color: #7d8590ff !important; 
 }
-
-
-
-
 
 .back-home {
   z-index: 1;
   padding-bottom: 15px;
   padding-top: 15px;
   margin-bottom: 10px;
-  border-bottom: 1px solid rgb(202, 202, 202) !important;
+  border-bottom: 1px solid #2d3138ff !important;
   position: sticky;
   top: 0px;
-  background-color: white;
+  background-color: #010409ff;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -284,8 +294,14 @@ code > * {
   text-decoration: none !important;
 }
 
+.back-home > span {
+  color: #7d8590ff !important;
+  font-weight: 500;
+  font-size: 20px !important;
+}
+
 #activebc {
-  color: #686868 !important;
+  color: #7d8590ff !important;
 }
 
 .main-page {
@@ -313,6 +329,10 @@ article {
   padding-top: 0px !important;
 }
 
+.article-main > small {
+  color: #7d8590ff !important;
+}
+
 footer.container > span {
   font-family: var(--darker) !important;
   font-size: 18px;
@@ -332,7 +352,6 @@ footer.container > span {
   margin-bottom: 20px;
   margin-right: 20px;
   padding: 10px 15px 10px 15px;
-  color: rgb(0, 0, 0) !important;
   text-decoration: none !important;
   transition: 0.1s ease-in;
   border-radius: 5px;
@@ -340,7 +359,7 @@ footer.container > span {
 }
 
 .backtop > a:hover {
-  background-color: #d7cee6;
+  background-color: rgb(29, 29, 29);
 }
 
 html {
@@ -358,16 +377,22 @@ img {
 }
 
 .bmc-btn {
-  color: white !important;
+  color: #050505ff !important;
   min-width: 190px !important;
   height: 50px !important;
   border-radius: 5px !important;
 }
 
 .bmc-btn-text {
+  color: #050505ff !important;
   font-family: var(--lato);
   flex-shrink: 3 !important;
+  font-weight: 700 !important;
   font-size: 14px !important;
+}
+
+.logo-outline {
+  fill: #050505ff !important;
 }
 
 .bmc-btn-container {
