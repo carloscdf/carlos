@@ -16,6 +16,7 @@
 
 body {
   background-color: #010409ff !important;
+  color: rgb(243, 243, 243) !important;
 }
 
 /**TITLES, LINKS & PHARAGRAFS**/
@@ -68,6 +69,13 @@ body {
   text-decoration: underline !important;
 }
 
+.sub-title {
+  font-size: 18px !important;
+}
+
+.icon-main > svg {
+  width: 16px;
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--darker);
@@ -78,22 +86,32 @@ h1,h2,h3,h4,h5,h6 {
   color: rgb(243, 243, 243) !important;
 }
 
-p, span, a {
+p, span, a, li {
   font-family: var(--lato);
-  font-size: 18px !important;
+  font-size: 16px !important;
   color: rgb(243, 243, 243) !important;
+  line-height: 1.7;
 }
 
+li {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
 
 a {
   color: #806effff !important;
   text-decoration: underline !important;
+  
 }
 
 hr {
   border-top: 1px solid #2d3138ff !important;
 }
 
+td {
+  border: 1px solid #2d3138ff;
+  padding: 10px;
+}
 
 .doublehr {
   margin-top: 20px;
@@ -113,15 +131,31 @@ ul {
 }
 
 code {
-  background-color: rgba(127, 110, 255, 0.096) !important;
+  background-color: rgba(127, 110, 255, 0.068) !important;
+  color:#806effff !important;
   font-family: 'JetBrains Mono', monospace !important;
-  padding: 10px 5px 10px 5px;
+  padding: 3px 6px 3px 6px;
+  border-radius: 5px !important;
 }
 
-code > * {
+code > *, pre {
   font-family: 'JetBrains Mono', monospace !important;
   font-size: 16px !important;
 }
+
+blockquote {
+  padding: 15px;
+  background-color: rgba(127, 110, 255, 0.068);
+  border-left: 2px solid #806effff;
+}
+
+pre {
+  padding: 15px;
+  background-color: rgba(127, 110, 255, 0.068) !important;
+  color:#806effff !important;
+  border-radius: 5px !important;
+}
+
 
 /****/
 
@@ -234,7 +268,7 @@ code > * {
   display: flex;
 }
 
-.links-page > a:nth-child(1), a:nth-child(2)  {
+.links-page > a:nth-child(1), a:nth-child(2), a:nth-child(3)  {
   margin-right: 10px;
 }
 
@@ -327,6 +361,7 @@ article {
 .article-main {
   margin-bottom: 15px !important;
   padding-top: 0px !important;
+  
 }
 
 .article-main > small {
@@ -408,6 +443,32 @@ img {
 
 
 /*Fim das minhas modificações*/
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Track (fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background-color: #0e101a; /* Cor de fundo do dark mode */
+  padding: 5px;
+}
+
+/* Thumb (a alça da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: #525252; /* Cor da alça da barra de rolagem */
+}
+
+/* Thumb quando estiver sendo arrastada */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #686868; /* Cor da alça da barra de rolagem em hover */
+}
+
+/* Thumb quando estiver ativa (clicada) */
+::-webkit-scrollbar-thumb:active {
+  background-color: #999; /* Cor da alça da barra de rolagem ativa */
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
