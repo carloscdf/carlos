@@ -16,7 +16,7 @@
 
 body {
   background-color: #010409ff !important;
-  color: rgb(243, 243, 243) !important;
+  color: rgb(243, 243, 243) #010409ff !important;
 }
 
 /**TITLES, LINKS & PHARAGRAFS**/
@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   text-decoration: none !important;
   padding-bottom: 10px;
-  border-bottom: 1px solid #2d3138ff;
+
 
 }
 
@@ -58,7 +58,7 @@ body {
   color: #f3f3f3 !important;
   font-family: var(--lato);
   font-weight: 600 !important;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.2 !important;
   text-decoration: none !important;
   margin-top: 5px !important;
@@ -109,21 +109,25 @@ hr {
 }
 
 td {
-  border: 1px solid #2d3138ff;
+  border: 1px solid #f3f3f3;
   padding: 10px;
 }
 
-.doublehr {
-  margin-top: 20px;
+
+.header-post-border {
+  border-bottom: 1px solid rgb(243, 243, 243) !important;
 }
 
+.doublehr {
+  margin: 0 auto;
 
-.mainhr {
-  margin-top: 15px !important;
+  padding: 0px 15px 0px 15px;
+  max-width: 900px !important;
 }
 
 .doublehr > hr {
-  margin: 0 0 3px 0 !important;
+  border-top: 1px solid rgb(243, 243, 243) !important;
+  margin-top: 0px !important;
 }
 
 ul {
@@ -273,7 +277,7 @@ pre {
 }
 
 .links-page > a > svg {
-  fill: #806effff!important;
+  fill: #E5E5E5!important;
 }
 
 
@@ -281,19 +285,24 @@ pre {
   margin: 0px !important;
 }
 
+.links-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /****/
 
-.aticle-title > h3 {
+.article-title > h3 {
   margin-top: 0px !important;
   margin-bottom: 10px !important;
 }
 
 
-.aticle-title {
-  border-bottom: 2px solid rgb(243, 243, 243) !important;
+.article-title {
+  border-bottom: 1px solid rgb(243, 243, 243) !important;
   margin-bottom: 20px;
-  width: fit-content;
+  width: 100%;
 }
 
 .post-data {
@@ -305,17 +314,18 @@ pre {
 
 .post-data > * {
   margin-right: 5px;
-  color: #7d8590ff !important; 
+  color: rgb(243, 243, 243) !important; 
 }
 
 .back-home {
+  display: none;
   z-index: 1;
   padding-bottom: 15px;
   padding-top: 15px;
   margin-bottom: 10px;
   border-bottom: 1px solid #2d3138ff !important;
   position: sticky;
-  top: 0px;
+  top: 80px;
   background-color: #010409ff;
   overflow: hidden;
   white-space: nowrap;

@@ -1,63 +1,204 @@
-.podcast {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    max-width: 400px;
-    margin-top: 15px;
+
+
+.header {
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  padding: 20px;
+  background-color: #01040996;
+  backdrop-filter: blur(25px) !important;
 }
 
-  
-  .pod-cover {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
-  
-  .play-pod {
-    position: absolute;
-    background-color:  rgba(45, 49, 56, 0.979) !important;
-    display: none;
-  }
-  
-  .play-pod > svg {
-    fill:#ffffffce;
-  }
-  
-  .pod-cover:hover > .play-pod {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .pod-cover > * {
-    background-color: rgba(45, 49, 56, 0.315);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5px;
-  }
-  
-  .pod-box {
-    border-radius: 10px;
-    padding: 10px 12px 10px 10px;
-    background-color: rgba(45, 49, 56, 0.315);
-    display: flex;
-  }
-  
-  .pod-name > h4 {
-    margin: 0px !important;
-  }
-  
-  .pod-name {
+.svg-logo {
+  width: 50px;
+}
+
+table > * {
+  color: #f3f3f3;
+}
+
+.header-content {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+  /*navbar buttons*/
+
+
+  .contact-button {
     margin-left: 10px;
+    padding: 6px;
+    border: 2px solid #806effff;
+    color: #806effff;
+    border-radius: 8px;
+    transition: 0.2s;
+    font-weight: 600;
+  }
+
+  .contact-button:hover {
+
+    background-color:  #806effff;
+    color: #e5e5e5 !important;
+  }
+
+  .the-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
   }
   
-  .pod-name > span {
+
+  .bottom-button {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav-buttons {
+    background-color: #464d5a54;
+    backdrop-filter: blur(25px) !important;
+    width: fit-content;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-buttons > #buttons {
+    background-color: #010409b2;
+    backdrop-filter: blur(25px) !important;
+    padding: 13px 6.5px 13px 6.5px;
+    color: #7d8590ff !important;
+    border-radius: 10px;
+  }
+
+  .nav-buttons > #buttons > a {
+    text-decoration: none !important;
+    margin: 0px !important;
+    padding: 10px;
+    outline: 1px solid rgba(125, 133, 144, 0.322);
+    border-radius: 5px;
+    color: #7d8590ff !important;
+    transition: 0.2s ease;
+    opacity: 0%;
+    animation: fadeIn 0.2s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0%; 
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+
+  .nav-buttons > #buttons > a:hover {
+    outline: 1px solid #e5e5e557;
+    color: #E5E5E5 !important;
+  }
+
+
+  .nav-buttons > #buttons > a#yes {
+    outline: 1px solid #e5e5e557;
+    color: #E5E5E5 !important;
+  }
+
+  .backtotop {
+    margin-left: 15px;
+    background-color: transparent;
+    border-radius: 15px;
+    height: 63.19px;
+    width: 63.19px;
+    background-color: #464d5a54;
+    backdrop-filter: blur(25px) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .backtotop > a {
+    background-color: #010409b2;
+    backdrop-filter: blur(25px) !important;
+    height: 53.19px;
+    width: 53.19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+ 
+ 
+  .wall {
+  height: 400px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.wall > img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  border: 1px solid #181C23;
+}
+
+.wall-desc {
+  max-width: 70%;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background-color: #010409b2;
+  backdrop-filter: blur(25px) !important;
+  padding: 18px;
+  border-radius: 10px;
+  outline: 5px solid #464d5a54;
+}
+
+.wall-desc > p {
+  margin-top: 0px;
+  margin-bottom: 0px !important;
+}
+
+
+
+
+@media (max-width: 425px) {
+  
+  .nav-buttons > #buttons > a {
     font-size: 14px !important;
   }
+
+  .backtotop > a > svg {
+    width: 3.666mm !important;
+    height: 3.657mm !important;
+  }
+
+  #hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 624px) {
+  .wall {
+    height: 250px;
+    margin-bottom: 30px;
+    position: relative;
+  }
   
+}

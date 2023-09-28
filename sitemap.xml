@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carloscdf.github.io/carlos</loc>
-    <lastmod>2023-06-20</lastmod>
+    <loc>http://localhost:8000</loc>
+    <lastmod>2023-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>https://carloscdf.github.io/carlos/article/a-journey-into-the-tech-world-my-introduction-passion-for-web-development-and-about-this-blog/</loc>
-    <lastmod>2023-06-20T21:39:13+00:00</lastmod>
+    <loc>http://localhost:8000/article/a-journey-into-the-tech-world-my-introduction-passion-for-web-development-and-about-this-blog/</loc>
+    <lastmod>2023-09-27T23:59:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>https://carloscdf.github.io/carlos/article/guia-completo-instalacao-configuracao-do-git-e-criacao-do-primeiro-repositorio-no-github-windows-e-linux/</loc>
-    <lastmod>2023-06-20T21:39:13+00:00</lastmod>
+    <loc>http://localhost:8000/article/guia-completo-instalacao-configuracao-do-git-e-criacao-do-primeiro-repositorio-no-github-windows-e-linux/</loc>
+    <lastmod>2023-09-27T23:59:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
