@@ -8,6 +8,7 @@
   padding: 20px;
   background-color: #01040996;
   backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
 }
 
 .svg-logo {
@@ -70,6 +71,7 @@ table > * {
   .nav-buttons {
     background-color: #464d5a54;
     backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
     width: fit-content;
     border-radius: 15px;
     display: flex;
@@ -81,6 +83,7 @@ table > * {
   .nav-buttons > #buttons {
     background-color: #010409b2;
     backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
     padding: 13px 6.5px 13px 6.5px;
     color: #7d8590ff !important;
     border-radius: 10px;
@@ -127,6 +130,7 @@ table > * {
     width: 63.19px;
     background-color: #464d5a54;
     backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,6 +139,7 @@ table > * {
   .backtotop > a {
     background-color: #010409b2;
     backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
     height: 53.19px;
     width: 53.19px;
     display: flex;
@@ -165,6 +170,7 @@ table > * {
   bottom: 20px;
   background-color: #010409b2;
   backdrop-filter: blur(25px) !important;
+  -webkit-backdrop-filter: blur(25px) !important;
   padding: 18px;
   border-radius: 10px;
   outline: 5px solid #464d5a54;
