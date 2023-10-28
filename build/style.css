@@ -80,18 +80,25 @@ table > * {
     justify-content: center;
   }
 
+  #buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .nav-buttons > #buttons {
     background-color: #010409b2;
     backdrop-filter: blur(25px) !important;
     -webkit-backdrop-filter: blur(25px) !important;
-    padding: 13px 6.5px 13px 6.5px;
+    padding: 4px;
+    /**padding: 13px 6.5px 13px 6.5px;**/
     color: #7d8590ff !important;
     border-radius: 10px;
   }
 
   .nav-buttons > #buttons > a {
     text-decoration: none !important;
-    margin: 1.5px !important;
+    margin: 2.5px !important;
     padding: 10px;
     outline: 1px solid rgba(125, 133, 144, 0.322);
     border-radius: 5px;
@@ -126,8 +133,8 @@ table > * {
     margin-left: 15px;
     background-color: transparent;
     border-radius: 15px;
-    height: 63.19px;
-    width: 63.19px;
+    height: 70.2px;
+    width: 70.2px;
     background-color: #464d5a54;
     backdrop-filter: blur(25px) !important;
     -webkit-backdrop-filter: blur(25px) !important;
@@ -140,8 +147,8 @@ table > * {
     background-color: #010409b2;
     backdrop-filter: blur(25px) !important;
     -webkit-backdrop-filter: blur(25px) !important;
-    height: 53.19px;
-    width: 53.19px;
+    height: 60.2px;
+    width: 60.2px;
     display: flex;
     align-items: center;
     justify-content: center;
