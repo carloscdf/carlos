@@ -205,6 +205,17 @@ table > * {
   #hide-mobile {
     display: none !important;
   }
+
+  .hidden {
+    transform: translateY(500px);
+    transition: transform 0.5s;
+  }
+  
+  .visible {
+    transform: translateY(0);
+    transition: transform 0.5s;
+  }
+  
 }
 
 @media (max-width: 624px) {
@@ -215,3 +226,5 @@ table > * {
   }
   
 }
+
+
